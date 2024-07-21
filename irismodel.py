@@ -6,7 +6,7 @@ import pickle
 from sklearn.datasets import load_iris
 
 # Load the trained model
-with open(r'C:\Users\jay.chaudhary\Desktop\Python Project Hub\iris_model.pkl', 'rb') as model_file:
+with open('iris_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Load the iris dataset for feature names
